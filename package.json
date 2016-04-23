@@ -1,0 +1,15 @@
+{
+  "name": "emacs-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Emacs theme syntax for Atom",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/cristian-henrique/emacs-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

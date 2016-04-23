@@ -1,0 +1,230 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter, :host .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide, :host .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide, :host .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character, :host .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+  background-color: #E0E0E0;
+}
+
+.variable.parameter.function {
+  color: #000000;
+}
+
+.comment, .punctuation.definition.comment {
+  color: #B22222;
+}
+
+.punctuation.definition.string, .punctuation.definition.variable, .punctuation.definition.string, .punctuation.definition.parameters, .punctuation.definition.string, .punctuation.definition.array {
+  color: #000000;
+}
+
+.none {
+  color: #000000;
+}
+
+.keyword.operator {
+  color: #A020F0;
+}
+
+.keyword {
+  color: #A020F0;
+}
+
+.variable {
+  color: #CC342B;
+}
+
+.entity.name.function, .meta.require, .support.function.any-method {
+  color: #0000FF;
+}
+
+.support.class, .entity.name.class, .entity.name.type.class {
+  color: #228B22;
+}
+
+.meta.class {
+  color: #282a2e;
+}
+
+.keyword.other.special-method {
+  color: #3971ED;
+}
+
+.storage {
+  color: #A020F0;
+}
+
+.support.function {
+  color: #3971ED;
+}
+
+.string, .constant.other.symbol {
+  color: #8B2252;
+}
+
+.constant.numeric {
+  color: #000000;
+}
+
+.none {
+  color: #000000;
+}
+
+.none {
+  color: #008B8B;
+}
+
+.constant {
+  color: #A0522D;
+}
+
+.entity.name.tag {
+  color: #0000FF;
+}
+
+.entity.other.attribute-name {
+  color: #A0522D;
+}
+
+.entity.other.attribute-name.id, .punctuation.definition.entity {
+  color: #3971ED;
+}
+
+.meta.selector {
+  color: #A36AC7;
+}
+
+.none {
+  color: #F96A38;
+}
+
+.markup.heading .punctuation.definition.heading, .entity.name.section {
+  color: #3971ED;
+}
+
+.keyword.other.unit {
+  color: #000000;
+}
+
+.markup.raw.inline {
+  color: #198844;
+}
+
+.string.other.link {
+  color: #CC342B;
+}
+
+.meta.link {
+  color: #F96A38;
+}
+
+.markup.list {
+  color: #CC342B;
+}
+
+.markup.quote {
+  color: #F96A38;
+}
+
+.meta.separator {
+  color: #373b41;
+  background-color: #e0e0e0;
+}
+
+.markup.inserted {
+  color: #198844;
+}
+
+.markup.deleted {
+  color: #CC342B;
+}
+
+.markup.changed {
+  color: #A36AC7;
+}
+
+.constant.other.color {
+  color: #3971ED;
+}
+
+.string.regexp {
+  color: #3971ED;
+}
+
+.constant.character.escape {
+  color: #8B2252;
+}
+
+.punctuation.section.embedded, .variable.interpolation {
+  color: #3971ED;
+}
+
+.invalid.illegal {
+  color: #ffffff;
+  background-color: #CC342B;
+}
+
+.invalid.broken {
+  color: #1d1f21;
+  background-color: #F96A38;
+}
+
+.invalid.deprecated {
+  color: #ffffff;
+  background-color: #3971ED;
+}
+
+.invalid.unimplemented {
+  color: #1d1f21;
+  background-color: #c5c8c6;
+}
+
+.entity.other.inherited-class {
+  color: #000000;
+}
