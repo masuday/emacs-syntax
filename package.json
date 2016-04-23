@@ -1,7 +1,7 @@
 {
   "name": "emacs-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Emacs theme syntax for Atom",
   "keywords": [
     "syntax",
